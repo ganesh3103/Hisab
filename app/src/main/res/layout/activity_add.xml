@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".add">
+    <EditText
+        android:id="@+id/ed1"
+        android:layout_width="390dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="10dp"
+        android:hint="Enter amount"
+        android:inputType="number"
+        android:drawableStart="@drawable/imoney"
+        android:drawablePadding="10dp"/>
+    <EditText
+        android:id="@+id/ed2"
+        android:layout_width="390dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="70dp"
+        android:hint="Description/Purpose"
+        android:drawableStart="@drawable/icreate"
+        android:drawablePadding="10dp"/>
+    <ImageButton android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="150dip"
+        android:id="@+id/bkn"
+        android:src="@drawable/ic_date_range_black_24dp"/>
+    <TextView android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="162dp"
+        android:layout_marginLeft="55dip"
+        android:text="Select Date"
+        android:id="@+id/txt"/>
+
+    <Button
+        android:id="@+id/btn"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="75dp"
+        android:layout_marginTop="250dp"
+        android:background="#FFFFFF"
+        android:elevation="20dp"
+        android:text="Add" />
+
+
+</RelativeLayout>
